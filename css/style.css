@@ -175,6 +175,14 @@ body.dark p {
 
 /*header-end*/
 
+.line{
+    width: 100%;
+    height: 2px;
+    background: #02897A;
+    position: sticky;
+    top: 105px;
+}
+
 /*hero-start*/
 
 #hero {
