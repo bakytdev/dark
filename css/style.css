@@ -41,16 +41,14 @@ html, body {
 /*dark-start*/
 
 body.dark {
-    background: #343a40;
+    background: #1f2e35;
     color: #fff;
     transition: .5s;
 }
 
 body.dark button {
-    background: #343a40;
-    color: #fff;
     transition: .4s;
-    border: 2px solid white;
+    border: 2px solid #02897A;
 }
 
 body.dark h1 {
@@ -77,6 +75,7 @@ body.dark a {
 body.dark p {
     color: white;
 }
+
 
 /*dark-end*/
 
@@ -130,6 +129,7 @@ body.dark p {
 }
 
 .header-nav a:hover {
+    text-decoration-line: underline;
     color: #3d3db0;
 }
 
@@ -243,6 +243,8 @@ body.dark p {
     color: #FFFFFF;
     padding: 10px 30px;
     transition: .4s;
+    border: 2px solid #02897A;
+
 }
 
 .hero-btn button:hover {
@@ -359,12 +361,13 @@ body.dark p {
 
 .product-btn button {
     background: #02897A;
-    border-radius: 4px 0 0 10px;
+    border-radius: 4px;
     padding: 15px 30px;
     font-weight: 700;
     font-size: 16px;
     color: #FFFFFF;
     transition: .4s;
+    border: 2px solid #02897A;
 }
 
 .product-btn button:hover {
@@ -589,6 +592,7 @@ body.dark p {
 }
 
 .quick-text-block {
+    color: black;
     width: 274px;
     height: 53px;
     background: #FFFFFF;
@@ -614,6 +618,7 @@ body.dark p {
     border-radius: 4px;
     padding: 12px 25px;
     transition: .4s;
+    border: 2px solid #02897A;
 }
 
 .quick-btn button:hover {
@@ -1057,6 +1062,7 @@ body.dark p {
     line-height: 24px;
     color: #FFFFFF;
     transition: .4s;
+    border: 2px solid #02897A;
 }
 
 .footer-input button:hover {
